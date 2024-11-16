@@ -1,0 +1,780 @@
+[{
+  "_id": {
+    "$oid": "6737e8db0a8113a8cb74bbc9"
+  },
+  "nombre": "Diego Sánchez",
+  "email": "diego.sanchez@example.com",
+  "telefono": "9777123456",
+  "intereses": [
+    {
+      "userId": {
+        "$oid": "673815c00a8113a8cb74bc14"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "673815c00a8113a8cb74bc15"
+      }
+    }
+  ],
+  "ubicacion": {
+    "ciudad": "Lima",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd1"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737e8db0a8113a8cb74bbca"
+  },
+  "nombre": "Lucía Vargas",
+  "email": "lucia.vargas@example.com",
+  "telefono": {
+    "$numberLong": "9888987654"
+  },
+  "intereses": [
+    {},
+    {}
+  ],
+  "ubicacion": {
+    "ciudad": "Arequipa",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd1"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737e8db0a8113a8cb74bbcb"
+  },
+  "nombre": "Fernando Rojas",
+  "email": "fernando.rojas@example.com",
+  "telefono": {
+    "$numberLong": "9999456789"
+  },
+  "intereses": {
+    "deporte1": "Ciclismo",
+    "deporte2": "Atletismo"
+  },
+  "ubicacion": {
+    "ciudad": "Cusco",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd1"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737e8db0a8113a8cb74bbcc"
+  },
+  "nombre": "Isabel Torres",
+  "email": "isabel.torres@example.com",
+  "telefono": {
+    "$numberLong": "9101123456"
+  },
+  "intereses": [
+    {},
+    {}
+  ],
+  "ubicacion": {
+    "ciudad": "Trujillo",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd1"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737e8dc0a8113a8cb74bbcd"
+  },
+  "nombre": "Javier Castillo",
+  "email": "javier.castillo@example.com",
+  "telefono": {
+    "$numberLong": "9202987654"
+  },
+  "intereses": {
+    "deporte1": "Boxeo",
+    "deporte2": "Artes Marciales"
+  },
+  "ubicacion": {
+    "ciudad": "Piura",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737e8dc0a8113a8cb74bbce"
+  },
+  "nombre": "Mariana López",
+  "email": "mariana.lopez@example.com",
+  "telefono": {
+    "$numberLong": "9303456789"
+  },
+  "intereses": {
+    "deporte1": "Esgrima",
+    "deporte2": "Rugby"
+  },
+  "ubicacion": {
+    "ciudad": "Chiclayo",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737e8dc0a8113a8cb74bbcf"
+  },
+  "nombre": "Rodrigo Pérez",
+  "email": "rodrigo.perez@example.com",
+  "telefono": {
+    "$numberLong": "9404123456"
+  },
+  "intereses": {
+    "deporte1": "Surf",
+    "deporte2": "Escalada"
+  },
+  "ubicacion": {
+    "ciudad": "Iquitos",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737ffed0a8113a8cb74bbed"
+  },
+  "nombre": "Pedro García",
+  "email": "pedro.garcia@example.com",
+  "telefono": 911234567,
+  "intereses": {
+    "deporte1": "673815c00a8113a8cb74bc14",
+    "deporte2": "673815c00a8113a8cb74bc15"
+  },
+  "ubicacion": {
+    "ciudad": "Lima",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737ffed0a8113a8cb74bbee"
+  },
+  "nombre": "Laura Martínez",
+  "email": "laura.martinez@example.com",
+  "telefono": 922345678,
+  "intereses": {
+    "deporte1": "Voleibol",
+    "deporte2": "Natación"
+  },
+  "ubicacion": {
+    "ciudad": "Arequipa",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737ffed0a8113a8cb74bbef"
+  },
+  "nombre": "Andrés Torres",
+  "email": "andres.torres@example.com",
+  "telefono": 933456789,
+  "intereses": {
+    "deporte1": "Ciclismo",
+    "deporte2": "Atletismo"
+  },
+  "ubicacion": {
+    "ciudad": "Cusco",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737ffed0a8113a8cb74bbf0"
+  },
+  "nombre": "Marta López",
+  "email": "marta.lopez@example.com",
+  "telefono": 944567890,
+  "intereses": {
+    "deporte1": "Tenis",
+    "deporte2": "Gimnasia"
+  },
+  "ubicacion": {
+    "ciudad": "Trujillo",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737ffed0a8113a8cb74bbf1"
+  },
+  "nombre": "Jorge Ramírez",
+  "email": "jorge.ramirez@example.com",
+  "telefono": 955678901,
+  "intereses": {
+    "deporte1": "Boxeo",
+    "deporte2": "Artes Marciales"
+  },
+  "ubicacion": {
+    "ciudad": "Piura",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737ffed0a8113a8cb74bbf2"
+  },
+  "nombre": "Ana Fernández",
+  "email": "ana.fernandez@example.com",
+  "telefono": 966789012,
+  "intereses": {
+    "deporte1": "Esgrima",
+    "deporte2": "Rugby"
+  },
+  "ubicacion": {
+    "ciudad": "Chiclayo",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737ffee0a8113a8cb74bbf3"
+  },
+  "nombre": "Luis Pérez",
+  "email": "luis.perez@example.com",
+  "telefono": 977890123,
+  "intereses": {
+    "deporte1": "Surf",
+    "deporte2": "Escalada"
+  },
+  "ubicacion": {
+    "ciudad": "Iquitos",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737ffee0a8113a8cb74bbf4"
+  },
+  "nombre": "Isabel Gómez",
+  "email": "isabel.gomez@example.com",
+  "telefono": 988901234,
+  "intereses": {
+    "deporte1": "673815c00a8113a8cb74bc14",
+    "deporte2": "673815c00a8113a8cb74bc15"
+  },
+  "ubicacion": {
+    "ciudad": "Lima",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737ffee0a8113a8cb74bbf5"
+  },
+  "nombre": "Carlos Díaz",
+  "email": "carlos.diaz@example.com",
+  "telefono": 999012345,
+  "intereses": {
+    "deporte1": "Voleibol",
+    "deporte2": "Natación"
+  },
+  "ubicacion": {
+    "ciudad": "Arequipa",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737ffee0a8113a8cb74bbf6"
+  },
+  "nombre": "Lucía Torres",
+  "email": "lucia.torres@example.com",
+  "telefono": 911123456,
+  "intereses": {
+    "deporte1": "Ciclismo",
+    "deporte2": "Atletismo"
+  },
+  "ubicacion": {
+    "ciudad": "Cusco",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737ffee0a8113a8cb74bbf7"
+  },
+  "nombre": "Fernando Rojas",
+  "email": "fernando.rojas@example.com",
+  "telefono": 922234567,
+  "intereses": {
+    "deporte1": "Tenis",
+    "deporte2": "Gimnasia"
+  },
+  "ubicacion": {
+    "ciudad": "Trujillo",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737ffef0a8113a8cb74bbf8"
+  },
+  "nombre": "María Vargas",
+  "email": "maria.vargas@example.com",
+  "telefono": 933345678,
+  "intereses": {
+    "deporte1": "Boxeo",
+    "deporte2": "Artes Marciales"
+  },
+  "ubicacion": {
+    "ciudad": "Piura",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737ffef0a8113a8cb74bbf9"
+  },
+  "nombre": "Javier Castillo",
+  "email": "javier.castillo@example.com",
+  "telefono": 944456789,
+  "intereses": {
+    "deporte1": "Esgrima",
+    "deporte2": "Rugby"
+  },
+  "ubicacion": {
+    "ciudad": "Chiclayo",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737ffef0a8113a8cb74bbfa"
+  },
+  "nombre": "Rodrigo Pérez",
+  "email": "rodrigo.perez@example.com",
+  "telefono": 955567890,
+  "intereses": {
+    "deporte1": "Surf",
+    "deporte2": "Escalada"
+  },
+  "ubicacion": {
+    "ciudad": "Iquitos",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737ffef0a8113a8cb74bbfb"
+  },
+  "nombre": "Elena Ramírez",
+  "email": "elena.ramirez@example.com",
+  "telefono": 966678901,
+  "intereses": {
+    "deporte1": "673815c00a8113a8cb74bc14",
+    "deporte2": "673815c00a8113a8cb74bc15"
+  },
+  "ubicacion": {
+    "ciudad": "Lima",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd5"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737ffef0a8113a8cb74bbfc"
+  },
+  "nombre": "Ricardo Torres",
+  "email": "ricardo.torres@example.com",
+  "telefono": 977789012,
+  "intereses": {
+    "deporte1": "Voleibol",
+    "deporte2": "Natación"
+  },
+  "ubicacion": {
+    "ciudad": "Arequipa",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd5"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737fff00a8113a8cb74bbfd"
+  },
+  "nombre": "Sofía Herrera",
+  "email": "sofia.herrera@example.com",
+  "telefono": 988890123,
+  "intereses": {
+    "deporte1": "Ciclismo",
+    "deporte2": "Atletismo"
+  },
+  "ubicacion": {
+    "ciudad": "Cusco",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd5"
+  }
+},
+{
+  "_id": {
+    "$oid": "673800d10a8113a8cb74bbfe"
+  },
+  "nombre": "María López",
+  "email": "maria.lopez@example.com",
+  "telefono": 911234567,
+  "intereses": {
+    "deporte1": "673815c00a8113a8cb74bc14",
+    "deporte2": "673815c00a8113a8cb74bc15"
+  },
+  "ubicacion": {
+    "ciudad": "Lima",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd5"
+  }
+},
+{
+  "_id": {
+    "$oid": "673800d10a8113a8cb74bbff"
+  },
+  "nombre": "Javier Castillo",
+  "email": "javier.castillo@example.com",
+  "telefono": 922345678,
+  "intereses": {
+    "deporte1": "Voleibol",
+    "deporte2": "Natación"
+  },
+  "ubicacion": {
+    "ciudad": "Arequipa",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd5"
+  }
+},
+{
+  "_id": {
+    "$oid": "673800d10a8113a8cb74bc00"
+  },
+  "nombre": "Rodrigo Pérez",
+  "email": "rodrigo.perez@example.com",
+  "telefono": 933456789,
+  "intereses": {
+    "deporte1": "Ciclismo",
+    "deporte2": "Atletismo"
+  },
+  "ubicacion": {
+    "ciudad": "Cusco",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd5"
+  }
+},
+{
+  "_id": {
+    "$oid": "673800d10a8113a8cb74bc01"
+  },
+  "nombre": "Elena Ramírez",
+  "email": "elena.ramirez@example.com",
+  "telefono": 944567890,
+  "intereses": {
+    "deporte1": "Tenis",
+    "deporte2": "Gimnasia"
+  },
+  "ubicacion": {
+    "ciudad": "Trujillo",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd5"
+  }
+},
+{
+  "_id": {
+    "$oid": "673800d10a8113a8cb74bc02"
+  },
+  "nombre": "Ricardo Torres",
+  "email": "ricardo.torres@example.com",
+  "telefono": 955678901,
+  "intereses": {
+    "deporte1": "Boxeo",
+    "deporte2": "Artes Marciales"
+  },
+  "ubicacion": {
+    "ciudad": "Piura",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd5"
+  }
+},
+{
+  "_id": {
+    "$oid": "673800d20a8113a8cb74bc03"
+  },
+  "nombre": "Sofía Herrera",
+  "email": "sofia.herrera@example.com",
+  "telefono": 966789012,
+  "intereses": {
+    "deporte1": "Esgrima",
+    "deporte2": "Rugby"
+  },
+  "ubicacion": {
+    "ciudad": "Chiclayo",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd5"
+  }
+},
+{
+  "_id": {
+    "$oid": "673800d20a8113a8cb74bc04"
+  },
+  "nombre": "Carlos Pérez",
+  "email": "carlos.perez@example.com",
+  "telefono": 977890123,
+  "intereses": {
+    "deporte1": "Surf",
+    "deporte2": "Escalada"
+  },
+  "ubicacion": {
+    "ciudad": "Iquitos",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd5"
+  }
+},
+{
+  "_id": {
+    "$oid": "673800d20a8113a8cb74bc05"
+  },
+  "nombre": "Ana Gómez",
+  "email": "ana.gomez@example.com",
+  "telefono": 988901234,
+  "intereses": {
+    "deporte1": "Fútbol",
+    "deporte2": "Baloncesto"
+  },
+  "ubicacion": {
+    "ciudad": "Lima",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd5"
+  }
+},
+{
+  "_id": {
+    "$oid": "673800d20a8113a8cb74bc06"
+  },
+  "nombre": "Luis Martínez",
+  "email": "luis.martinez@example.com",
+  "telefono": 999012345,
+  "intereses": {
+    "deporte1": "Voleibol",
+    "deporte2": "Natación"
+  },
+  "ubicacion": {
+    "ciudad": "Arequipa",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd5"
+  }
+},
+{
+  "_id": {
+    "$oid": "673800d20a8113a8cb74bc07"
+  },
+  "nombre": "María López",
+  "email": "maria.lopez@example.com",
+  "telefono": 911123456,
+  "intereses": {
+    "deporte1": "Ciclismo",
+    "deporte2": "Atletismo"
+  },
+  "ubicacion": {
+    "ciudad": "Cusco",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd1"
+  }
+},
+{
+  "_id": {
+    "$oid": "673800d20a8113a8cb74bc08"
+  },
+  "nombre": "Jorge Fernández",
+  "email": "jorge.fernandez@example.com",
+  "telefono": 922234567,
+  "intereses": {
+    "deporte1": "Tenis",
+    "deporte2": "Gimnasia"
+  },
+  "ubicacion": {
+    "ciudad": "Trujillo",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd1"
+  }
+},
+{
+  "_id": {
+    "$oid": "673800d30a8113a8cb74bc09"
+  },
+  "nombre": "Elena Ramírez",
+  "email": "elena.ramirez@example.com",
+  "telefono": 933345678,
+  "intereses": {
+    "deporte1": "Boxeo",
+    "deporte2": "Artes Marciales"
+  },
+  "ubicacion": {
+    "ciudad": "Piura",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd1"
+  }
+},
+{
+  "_id": {
+    "$oid": "673800d30a8113a8cb74bc0a"
+  },
+  "nombre": "Ricardo Torres",
+  "email": "ricardo.torres@example.com",
+  "telefono": 944456789,
+  "intereses": {
+    "deporte1": "Esgrima",
+    "deporte2": "Rugby"
+  },
+  "ubicacion": {
+    "ciudad": "Chiclayo",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd1"
+  }
+},
+{
+  "_id": {
+    "$oid": "673800d30a8113a8cb74bc0b"
+  },
+  "nombre": "Sofía Herrera",
+  "email": "sofia.herrera@example.com",
+  "telefono": 955567890,
+  "intereses": {
+    "deporte1": "Surf",
+    "deporte2": "Escalada"
+  },
+  "ubicacion": {
+    "ciudad": "Iquitos",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd1"
+  }
+},
+{
+  "_id": {
+    "$oid": "673800d30a8113a8cb74bc0c"
+  },
+  "nombre": "Carlos Pérez",
+  "email": "carlos.perez@example.com",
+  "telefono": 966678901,
+  "intereses": {
+    "deporte1": "Fútbol",
+    "deporte2": "Baloncesto"
+  },
+  "ubicacion": {
+    "ciudad": "Lima",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd1"
+  }
+},
+{
+  "_id": {
+    "$oid": "673800d30a8113a8cb74bc0d"
+  },
+  "nombre": "Ana Gómez",
+  "email": "ana.gomez@example.com",
+  "telefono": 977789012,
+  "intereses": {
+    "deporte1": "Voleibol",
+    "deporte2": "Natación"
+  },
+  "ubicacion": {
+    "ciudad": "Arequipa",
+    "pais": "Perú"
+  },
+  "eventos_participando": {
+    "$oid": "6737f3000a8113a8cb74bbd1"
+  }
+}]
